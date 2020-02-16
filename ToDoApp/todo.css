@@ -1,0 +1,82 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #bdc3c7;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  padding-top: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  height: 100%;
+  background-color: #fff;
+}
+
+.border {
+  margin-left: 25px;
+}
+
+h1 {
+  text-align: left;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+input {
+  padding: 10px;
+  color: #212121;
+  border: 1px solid #d2d2d2;
+  border-radius: 2px 2px 2px 2px;
+}
+
+button {
+  padding: 10px;
+  border: 0 none;
+  border-radius: 2px 2px 2px 2px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+button#add {
+  background-color: #284fff;
+}
+
+button.removeTodo {
+  float: right;
+  padding: 5px;
+  font-size: 13px;
+  margin-left: 10px;
+  font-weight: 700;
+  background-color: #284fff;
+}
+
+button.doneButton {
+  float: right;
+  padding: 5px;
+  font-size: 13px;
+  margin-left: 10px;
+  font-weight: 700;
+  background-color: #284fff;
+}
+
+ul#list {
+  margin: 0; 
+  padding: 20px 0 0 0;
+}
+
+li {
+  border: 1px solid #d2d2d2;
+  margin-top: 5px;
+  min-height: 25px;
+  max-width: 200px;
+  text-align: left;
+  list-style: none;
+  font-size: 18px;
+  padding: 4px;
+}
